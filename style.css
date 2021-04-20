@@ -33,12 +33,11 @@ margin-bottom: 50px;
     left: 25%;
     letter-spacing: 0.1rem;
     text-align: center;
-    /* margin-right: -50%; */
 }
 
 .text {
     font-weight: normal;
-    color: rgb(115, 199, 230);
+    color: rgb(252, 131, 173);
 }
 .cursor {
     display: inline-block;
@@ -47,9 +46,9 @@ margin-bottom: 50px;
     margin-left: 0.1rem;
     animation: blink 1s infinite;
 }
-.cursor.typing {
+/* .cursor.typing {
     animation: none;
-}
+} */
 @keyframes blink {
     0% {background-color: rgb(255, 255, 255); }
     49% {background-color: rgb(255, 255, 255); }
